@@ -1,0 +1,49 @@
+body {
+  font-family: Helvetica;
+  margin: 0;
+  padding: 0;
+}
+header {
+  padding: 1em;
+  background-color: #f2f2f2;
+}
+header h1 {
+  color: #000;
+  font-weight: normal;
+  text-transform: capitalize;
+  font-variant: small-caps;
+  text-align: center;
+}
+section header {
+  padding: 1em 0em;
+  background-color: transparent;
+}
+
+/*
+Alineacion con Flexbox
+*/
+.row {
+  max-width: 960px;
+  width: 100%;
+  margin: 0 auto;
+  /*align-content: flex-end; para flex-direction column */
+}
+.flex {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;  
+  /* Direction and Wrap*/
+  flex: row wrap;
+  justify-content: space-between;
+  align-items: strech;
+  align-content: flex-start;
+}
+.column {
+  flex-grow: 1;
+}
+
+.text-center {
+  text-align: center;
+}

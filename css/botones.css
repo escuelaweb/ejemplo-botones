@@ -15,7 +15,7 @@
 }
 
 .boton:active {
-  top: 4px;
+  margin-top: 4px;
   border-bottom: 0px solid transparent !important;
 }
 
